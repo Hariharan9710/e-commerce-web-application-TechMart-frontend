@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Edit, Trash2, Plus, Save, X } from 'lucide-react';
 import { adminAPI, productAPI } from '../services/api';
-import { formatPrice, getImageUrl } from '../utils/Helpers';
+import { formatPrice, getImageUrl } from '../utils/helpers';
 
 export default function AdminProductManagement() {
   const navigate = useNavigate();

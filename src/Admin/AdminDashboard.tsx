@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Package, Users, DollarSign, TrendingUp, Plus } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { formatPrice } from '../utils/Helpers';
+import { formatPrice } from '../utils/helpers';
 import { useAdminData } from './useAdmin';
 import { adminAPI } from '../services/api';
 import AdminLayout from './AdminLayout';

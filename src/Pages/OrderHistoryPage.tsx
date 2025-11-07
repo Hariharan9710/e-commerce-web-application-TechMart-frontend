@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Package, Truck, CheckCircle, XCircle, Clock } from 'lucide-react';
 import Header from '../components/Header';
 import { orderAPI } from '../services/api';
-import { formatPrice } from '../utils/Helpers';
+import { formatPrice } from '../utils/helpers';
 import { useApp } from '../context/AppContext';
 
 export default function OrderHistoryPage() {
