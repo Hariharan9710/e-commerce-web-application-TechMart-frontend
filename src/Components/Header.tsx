@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ShoppingCart, Menu, Search, User, LogOut, HelpCircle, Shield, Package } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { getTotalQuantity } from '../utils/helpers';
+import { getTotalQuantity } from '../utils/Helpers';
 
 interface HeaderProps {
   showSearch?: boolean;

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import { cartAPI, userAPI } from '../services/api';
-import { getImageUrl } from '../utils/helpers';
+import { getImageUrl } from '../utils/Helpers';
 
 const AppContext = createContext();
 

@@ -2,7 +2,7 @@
 import { ShoppingBag, Trash2, Plus, Minus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
-import { formatPrice, calculateSubtotal, calculateTax, calculateTotal, getImageUrl } from '../utils/helpers';
+import { formatPrice, calculateSubtotal, calculateTax, calculateTotal, getImageUrl } from '../utils/Helpers';
 import { useApp } from '../context/AppContext';
 
 export default function ShoppingCartPage() {

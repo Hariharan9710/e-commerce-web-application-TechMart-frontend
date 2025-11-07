@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { adminAPI } from '../services/api';
-import { formatPrice } from '../utils/helpers';
+import { formatPrice } from '../utils/Helpers';
 import { useAdminData, getStatusBadge } from './useAdmin';
 import AdminLayout from './AdminLayout';
 

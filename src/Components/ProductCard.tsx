@@ -1,7 +1,7 @@
 
 import { ShoppingCart, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { formatPrice, getImageUrl } from '../utils/helpers';
+import { formatPrice, getImageUrl } from '../utils/Helpers';
 import { useApp } from '../context/AppContext';
 
 interface Product {

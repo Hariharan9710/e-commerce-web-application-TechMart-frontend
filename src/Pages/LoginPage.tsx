@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { authAPI } from '../services/api';
 import { useForm } from '../hooks/useForm';
-import { handleAPIError } from '../utils/errorHandler';
+import { handleAPIError } from '../utils/ErrorHandler';
 import { useApp } from '../context/AppContext';
 
 export default function LoginPage() {

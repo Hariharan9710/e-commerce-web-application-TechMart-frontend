@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ArrowLeft, Heart, Shield, Truck, RotateCcw, ShoppingCart, Plus, Minus, Star } from 'lucide-react';
 import Header from '../components/Header';
-import { formatPrice, getImageUrl } from '../utils/helpers';
+import { formatPrice, getImageUrl } from '../utils/Helpers';
 import ReviewSection from './ReviewForm';
 import { reviewAPI } from '../services/api';
 import { useApp } from '../context/AppContext';
