@@ -2,24 +2,24 @@ import { Routes, Route } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
 
 // Page imports
-import HomePage from './Pages/HomePage';
-import LoginPage from './Pages/LoginPage';
-import RegisterPage from './Pages/RegisterPage';
-import AllProductsPage from './Pages/AllProductsPage';
-import CategoryProductsPage from './Pages/CategoryProductsPage';
-import ProductDetailPage from './Pages/ProductDetailPage';
-import ShoppingCartPage from './Pages/ShoppingCartPage';
-import CheckoutPage from './Pages/CheckoutPage';
-import ProfilePage from './Pages/ProfilePage';
-import CustomerHelpPage from './Pages/CustomerHelpPage';
-import OrderHistoryPage from './Pages/OrderHistoryPage';
+import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import AllProductsPage from './pages/AllProductsPage';
+import CategoryProductsPage from './pages/CategoryProductsPage';
+import ProductDetailPage from './pages/ProductDetailPage';
+import ShoppingCartPage from './pages/ShoppingCartPage';
+import CheckoutPage from './pages/CheckoutPage';
+import ProfilePage from './pages/ProfilePage';
+import CustomerHelpPage from './pages/CustomerHelpPage';
+import OrderHistoryPage from './pages/OrderHistoryPage';
 
 // Admin imports
-import AdminLoginPage from './Admin/AdminLoginPage';
-import AdminDashboard from './Admin/AdminDashboard';
-import AdminProductManagement from './Admin/AdminProductManagement';
-import AdminOrderManagement from './Admin/AdminOrderManagement';
-import AdminReturnManagement from './Admin/AdminReturnManagement';
+import AdminLoginPage from './admin/AdminLoginPage';
+import AdminDashboard from './admin/AdminDashboard';
+import AdminProductManagement from './admin/AdminProductManagement';
+import AdminOrderManagement from './admin/AdminOrderManagement';
+import AdminReturnManagement from './admin/AdminReturnManagement';
 
 // Protected Route Component
 import ProtectedRoute from './components/ProtectedRoute';
